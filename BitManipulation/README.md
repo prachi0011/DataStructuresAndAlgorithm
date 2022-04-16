@@ -30,4 +30,14 @@ Constraints
 | 58 | 4 |
 | 28007298 | 13 |
 
+# Print Value Of Rsb Mask
 
+1. You are given a number n.
+2. You have to print the right-most set bit mask.
+
+Constraints
+1 <= n <= 10^9
+Sample Input
+58
+Sample Output
+10
