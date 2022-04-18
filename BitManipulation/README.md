@@ -7,11 +7,11 @@
 5. Also, Check if its m-th bit is on or off. Print 'true' if it is on, otherwise print 'false'.
 
 Constraints
-1 <= n <= 10^9
-1 <= i <= 9
-1 <= j <= 9
-1 <= k <= 9
-1 <= m <= 9
+- 1 <= n <= 10^9
+- 1 <= i <= 9
+- 1 <= j <= 9
+- 1 <= k <= 9
+- 1 <= m <= 9
 
 | Sample Input | Sample Output |
 | ------------ | ------------- |
@@ -87,3 +87,33 @@ Sample Output
  ```
 - Constraints:
 0<=n<=20
+
+# Minimum Number Of Software Developers
+
+1. You are given N strings which represents N different skills related to I.T field.
+2. You are working on a project and you want to hire a team of software developers for that project.
+3. There are N applicants. Every applicant has mentioned his/her skills in resume.
+4. You have to select the minimum number of developers such that for every required skill, there is 
+     at least one person in the team who has that skill.
+5. It is guaranteed that you can form a team which covers all the required skills.
+- Constraints
+<pre>
+1 <= N <= 16
+1 <= length of string <= 16
+1 <= M <= 60
+</pre>
+- Sample Input
+<pre>
+3
+java nodejs reactjs
+3
+1
+java
+1
+nodejs
+2
+nodejs
+reactjs
+</pre>
+- Sample Output
+[0, 2]
